@@ -1,0 +1,66 @@
+/* Carousel Slide Image Alignment Properties
+*****************************/
+
+.carousel-inner > .item > .carousel-image {
+    width: 100%;
+    height: 500px; 
+    text-align: center;
+    align: center;
+}
+
+/* Carousel Slide Images
+*****************************/
+
+#csl-item1 {
+    background:url("../img/carousel-1.jpg"); 
+    background-repeat: no-repeat;   
+    background-position: center top; 
+}
+
+#csl-item2 {
+    background:url("../img/carousel-2.jpg"); 
+    background-repeat: no-repeat;   
+    background-position: center -100px; 
+}
+
+#csl-item3 {
+    background:url("../img/carousel-3.jpg"); 
+    background-repeat: no-repeat;   
+    background-position: center -100px; 
+}
+
+/* Carousel Background Image
+*****************************/
+.carousel .item {
+    background-image: url("../img/background.jpg");
+}
+
+/* Carousel Full Screen
+*****************************/
+
+.fixed {
+  position: fixed;
+}
+
+/* Top Space Buffer on Ref. Page & Footer
+*****************************/
+  .top-space {
+     margin-top: 60px;
+  }
+
+  .top-space-2 {
+     margin-top: 120px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
